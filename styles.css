@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Dokdo', cursive;
+    background: black;
+    color: brown;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+
+body{
+      background-color: black;
+      height: 510px;   
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+     height: 630px;
+     margin: 5px auto;
+     background:black;
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+ 
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer  {
+    display: flex;
+    justify-content: flex-start;
+    color:#CAC4CE;
+}
+
+footer i {
+    margin-left: 36px;
+    margin-right: 45px;
+    margin-bottom: -28px;
+    font-size: 2em;
+    color:#CAC4CE;
+}
+ul li {
+    list-style: none;
+    font-size: 2em;
+}
+
+section ul {
+    margin-bottom: 100px;
+}
+
+.spanned,u{
+    color: #CAC4CE;
+    font-size: 35px;
+}
+ .push-up{
+     margin-bottom: 20px;
+ }
+
+ footer i {
+    text-decoration: none;
+ }
+
+ footer i:hover{
+    text-decoration: underline;
+    color: #CAC4CE;
+ }
+
+ .spanned{
+     text-decoration: none;
+ }
+
+ .spanned:hover{
+     text-decoration: underline;
+     color: #CAC4CE;
+ }
+
+@media (max-width: 700px) {
+   *{
+    font-family: 'Dokdo', cursive;
+    background: black;
+    color: brown;
+   }
+   
+.container{
+    width: 90%;
+    max-width: 1200px;
+     height: 550px;
+     margin: 13px auto;
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+ 
+}
+
+section ul {
+    display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 60px;
+}
+
+ul li{
+    list-style: none;
+    padding-right: 15px;
+    font-size: 1em;
+}
+footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+     }
+.spanned,u{
+        color: #CAC4CE;
+    }
+.spanned{
+        text-decoration: none;
+    }
+   
+.spanned:hover{
+        text-decoration: underline;
+        color: #CAC4CE;
+    }       
+
+footer i {
+         margin: 1px -7px;
+         color:#CAC4CE;
+         font-size: 1em;
+         text-decoration: none;
+     }
+     footer i:hover{
+        text-decoration: underline;
+        color: #CAC4CE;
+     }
+
+     .push-up{
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
